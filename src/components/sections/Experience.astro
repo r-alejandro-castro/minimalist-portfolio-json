@@ -1,5 +1,94 @@
 ---
  import Section from "@/components/Section.astro"
+ import { work } from "@cv"
 ---
 <Section title="Experience">
+
+    
+    <ul>
+        {work.map (({name, startDate, endDate, position, summary, highlights}) => {
+
+            const startYear = new Date(startDate).getFullYear()
+            const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            const years = `${startYear} - ${endYear}`
+
+            return (
+                <li>
+                    <article>
+                        <header>
+                            <div class="job-info">
+                                <h3>{name}</h3>
+                                <h4>{position}</h4>
+                            </div>
+
+                            <time>{years}</time>
+                        </header>
+
+                        <footer>                            
+                            <p>{summary}</p>
+                        </footer>
+                    </article>
+                </li>
+            )
+        })}
+    </ul>
 </Section>
+
+<style>
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    li {
+        margin-bottom: 24px; /* Añade un margen entre cada componente de experiencia */
+    }
+
+    article {
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .job-info {
+        max-width: 70%;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    /* Ajuste de márgenes y espaciado */
+    h3 {
+        margin: 0;
+        font-weight: 500;
+        color: #111;
+        line-height: 1.2;
+    }
+
+    h4 {
+        margin: 4px 0 8px 0; /* Reducir espacio entre 'position' y 'summary' */
+        font-weight: 400;
+        color: #333;
+        line-height: 1.2;
+    }
+
+    p {
+        margin: 0;
+        line-height: 1.4;
+        color: #555;
+    }
+
+</style>

@@ -1,10 +1,10 @@
 {
     "basics": {
       "name": "Alejandro Castro",
-      "label": "Programmer",
-      "image": "../public/me.webp",
+      "label": "Programador",
+      "image": "../public/me2.jpg",
       "email": "soyracm@gmail.com",
-      "phone": "(912) 555-4321",
+      "phone": "(+58) 412-149-5138",
       "url": "https://johndoe.com",
       "summary": "A summary of John Doe…",
       "location": {
@@ -20,11 +20,18 @@
           "network": "LinkedIn",
           "username": "soyracm",
           "url": "https://linkedin.com/in/soyracm"
+        },
+
+        {
+          "network": "GitHub",
+          "username": "r-alejandro-castro",
+          "url": "https://github.com/r-alejandro-castro"
         }
 
     ]
     },
-    "work": [{
+    "work": [
+      {
       "name": "Company",
       "position": "President",
       "url": "https://company.com",
@@ -33,8 +40,20 @@
       "summary": "Description…",
       "highlights": [
         "Started the company"
-      ]
-    }],
+      ]},
+
+      {
+        "name": "Company",
+        "position": "President",
+        "url": "https://company.com",
+        "startDate": "2013-01-01",
+        "endDate": "2014-01-01",
+        "summary": "Description…",
+        "highlights": [
+          "Started the company"
+        ]}
+
+  ],
     "volunteer": [{
       "organization": "Organization",
       "position": "Volunteer",
