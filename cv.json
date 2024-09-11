@@ -96,7 +96,9 @@
       "url": "https://publication.com",
       "summary": "Description…"
     }],
-    "skills": [{
+
+    "skills": [
+      {
       "name": "Web Development",
       "level": "Master",
       "keywords": [
@@ -104,7 +106,63 @@
         "CSS",
         "JavaScript"
       ]
-    }],
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+    
     "languages": [{
       "language": "English",
       "fluency": "Native speaker"
@@ -120,14 +178,46 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    }]
+    "projects": [
+        {
+        "name": "Project",
+
+        "isActive": true, 
+        
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "Description...",
+        "highlights": [
+          "Won award at AIHacks 2016"
+        ],
+        "url": "https://project.com/"
+      },
+      {
+        "name": "Project",
+
+        "isActive": true, 
+        
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "Description...",
+        "highlights": [
+          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        ],
+        "url": "https://project.com/"
+      },
+      {
+        "name": "Project",
+        "github": "https://project.com/",
+
+        "isActive": false, 
+        
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "highlights": [
+          "Won award at AIHacks 2016"
+        ],
+        "url": "https://project.com/"
+      }
+    ]
   }

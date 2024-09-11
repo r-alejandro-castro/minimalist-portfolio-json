@@ -2,9 +2,7 @@
  import Section from "@/components/Section.astro"
  import { work } from "@cv"
 ---
-<Section title="Experience">
-
-    
+<Section title="Experencia laboral"> 
     <ul>
         {work.map (({name, startDate, endDate, position, summary, highlights}) => {
 
@@ -40,6 +38,7 @@
         padding: 0;
         margin: 0;
         list-style-type: none;
+        letter-spacing: normal;
     }
 
     li {
