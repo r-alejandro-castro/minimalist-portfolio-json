@@ -64,4 +64,27 @@ const { title } = Astro.props;
 		text-wrap: pretty;
         letter-spacing: normal;
 	}
+
+	.print {
+    display: none !important;
+	white-space: pre-line;
+  }
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+
+    .print {
+      display: block !important;
+    }
+
+    astro-dev-toolbar {
+      display: none !important;
+    }
+
+    article {
+      break-inside: avoid;
+    }
+  }
 </style>

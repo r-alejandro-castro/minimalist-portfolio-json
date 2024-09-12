@@ -2,10 +2,33 @@
 
 </footer>
 
-<script>
+<ninja-keys> </ninja-keys>
 
+<script>
+    import "ninja-keys"
+
+    const ninja = document.querySelector("ninja-keys")
+
+    if ( ninja !== null) {
+        ninja.data = [
+            {
+            id: 'Print',
+            title: '🖨️ Imprimir',
+            hotkey: 'ctrl+P',
+            icon: 'apps',
+            section: 'Projects',
+            handler: () => {
+                    window.print()
+                },
+            }
+        ];
+    }
 </script>
 
 <style>
-    
+    @media print {
+        ninja-keys {
+            display: none !important;
+        }
+  }
 </style>
