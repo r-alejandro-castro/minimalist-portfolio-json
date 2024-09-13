@@ -1,14 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
     branches: [ main ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
   pages: write
@@ -20,12 +16,12 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+
       - name: Install, build, and upload your site
         uses: withastro/action@v2
-        # with:
-          # path: . # The root location of your Astro project inside the repository. (optional)
-          # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-          # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+        with:
+          node-version: '20.12.2' # Puedes ajustar la versión de Node.js según la compatibilidad de tu proyecto
+          package-manager: 'pnpm@9.7.0' # Especifica aquí la versión de pnpm que desees usar
 
   deploy:
     needs: build
@@ -37,12 +33,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  # steps:
-  # - uses: actions/checkout@v2
-  # - uses: pnpm/action-setup@v3
-  #   with:
-  #     version: 9.7.0  # Especifica la versión de pnpm que deseas usar
-  # - run: pnpm install
-  # - run: pnpm run build
-  # - run: pnpm run deploy
