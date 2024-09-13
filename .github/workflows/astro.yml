@@ -37,3 +37,12 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # steps:
+  # - uses: actions/checkout@v2
+  # - uses: pnpm/action-setup@v3
+  #   with:
+  #     version: 9.7.0  # Especifica la versión de pnpm que deseas usar
+  # - run: pnpm install
+  # - run: pnpm run build
+  # - run: pnpm run deploy
