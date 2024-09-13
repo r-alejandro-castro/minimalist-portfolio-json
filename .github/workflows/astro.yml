@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14' # Asegúrate de usar una versión de Node compatible
+          node-version: '20.12.2' # Asegúrate de usar una versión de Node compatible
       - name: Install pnpm
         run: npm install -g pnpm
       - name: Install dependencies
