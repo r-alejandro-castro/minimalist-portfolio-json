@@ -1,8 +1,11 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
+    site: "https://r-alejandro-castro.github.io",
     base: '/minimalist-portfolio-json/',
     integrations: [],
+    // integrations: [github()]
+
 });
 // import { defineConfig } from 'astro/config';
 // import github from '@astrojs/github';
