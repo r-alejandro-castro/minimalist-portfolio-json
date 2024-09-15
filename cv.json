@@ -2,7 +2,7 @@
     "basics": {
       "name": "Alejandro Castro",
       "label": "Programador",
-      "image": "../public/me2.webp",
+      "image": "/img/me2.webp",
       "email": "soyracm@gmail.com",
       "phone": "(+58) 412-149-5138",
       "url": "https://johndoe.com",
