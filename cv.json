@@ -1,12 +1,14 @@
 {
     "basics": {
       "name": "Alejandro Castro",
-      "label": "Programador",
+      "label": "Soy un estudiante de ingeniería de sistemas enfocado en el desarrollo de productos de alta calidad.",
+      "label_us": "I'm a systems engineering student focused on developing high-quality products.",
       "image": "/img/me2.webp",
       "email": "soyracm@gmail.com",
       "phone": "(+58) 412-149-5138",
       "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "summary": "Soy un desarrollador con dos años de experiencia en tecnologías como JavaScript, TypeScript, Astro, Node.js y React.js. Además, tengo experiencia en el desarrollo de API REST y mi entorno de desarrollo es Visual Studio Code.",
+      "summary_us":"I'm a developer with two years of experience working with technologies like JavaScript, TypeScript, Astro, Node.js, and React.js. I also have experience building REST APIs, and I use Visual Studio Code as my development environment.",
       "location": {
         "address": "Centro",
         "postalCode": "1010",
@@ -32,25 +34,25 @@
     },
     "work": [
       {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Fundación Instituto de Ingeniería",
+      "position": "React Desarrollador",
+      "url": "https://www.fii.gob.ve/",
+      "startDate": "2023-10-01",
+      "endDate": null,
+      "summary": "En mi puesto actual, me especializo en el desarrollo de componentes reutilizables en React.js y otros elementos dinámicos, optimizando la estructura y usabilidad de interfaces web.",
       "highlights": [
         "Started the company"
       ]},
 
       {
-        "name": "Company",
-        "position": "President",
-        "url": "https://company.com",
-        "startDate": "2013-01-01",
-        "endDate": "2014-01-01",
-        "summary": "Description…",
+        "name": "Ginux Studio",
+        "position": "Diseñador UI/UX",
+        "url": "",
+        "startDate": "2021-01-01",
+        "endDate": "2023-10-01",
+        "summary": "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web y móviles.",
         "highlights": [
-          "Started the company"
+          "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web y móviles."
         ]}
 
   ],
