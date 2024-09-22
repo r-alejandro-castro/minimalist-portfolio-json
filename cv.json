@@ -50,7 +50,7 @@
         "url": "",
         "startDate": "2021-01-01",
         "endDate": "2023-10-01",
-        "summary": "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web y móviles.",
+        "summary": "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web",
         "highlights": [
           "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web y móviles."
         ]}
@@ -115,7 +115,8 @@
     {"name": "React.js"},
     {"name": "Astro"},
     {"name": "PostgreSQL"},
-    {"name": "Node.js"}
+    {"name": "Node.js"},
+    {"name": "GIT"}
   ],
     
     "languages": [{
