@@ -6,7 +6,7 @@
 <Section title="Educación">
 
     <ul>
-        {education.map (({institution, startDate, endDate, area, summary, highlights}) => {
+        {education.map (({institution, startDate, endDate, area}) => {
 
             const startYear = new Date(startDate).getFullYear()
             const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -23,10 +23,6 @@
 
                             <time>{years}</time>
                         </header>
-
-                        <footer>                            
-                            <p>{summary}</p>
-                        </footer>
                     </article>
                 </li>
             )
