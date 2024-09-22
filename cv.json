@@ -67,18 +67,20 @@
         "Awarded 'Volunteer of the Month'"
       ]
     }],
-    "education": [{
-      "institution": "University",
+    "education": [
+      {
+      "institution": "Universidad Santa Maria",
       "url": "https://institution.com/",
-      "area": "Software Development",
+      "area": "Ingeniería de sistemas",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "startDate": "2023-10-01",
+      "endDate": null,
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
-      ]
-    }],
+      ]}
+    ],
+
     "awards": [{
       "title": "Award",
       "date": "2014-11-01",
@@ -101,15 +103,6 @@
 
     "skills": [
       {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
       "name": "JavaScript",
       "level": "Master",
       "keywords": [
@@ -118,51 +111,11 @@
         "JavaScript"
       ]
     },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }
+    {"name": "TypeScript"},
+    {"name": "React.js"},
+    {"name": "Astro"},
+    {"name": "PostgreSQL"},
+    {"name": "Node.js"}
   ],
     
     "languages": [{
