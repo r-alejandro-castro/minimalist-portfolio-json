@@ -56,8 +56,14 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
 ---
 
+<!-- Footer visible solo en escritorio -->
 <footer id="normal-footer" class="no-print">
     Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos
+</footer>
+
+<!-- Footer visible solo en móviles -->
+<footer id="mobile-footer" class="no-print mobile-footer">
+  <button id="open-keyboard" class="open-keyboard-btn">Click me</button>
 </footer>
 
 <ninja-keys data-info={JSON.stringify(profilesInfo)} placeholder="Escribe buscar comando"
@@ -101,18 +107,24 @@ const profilesInfo = profiles.map(({ network, url }) => {
             ...data,
         ];
     }
+    // Abre el teclado de comandos cuando se hace clic en el botón del móvil
+    document.getElementById('open-keyboard')?.addEventListener('click', () => {
+        ninja.open(); // Abre directamente el keyboard
+    });
 </script>
 
 <style>
 
-@keyframes fadeIn {
+
+/* Animación para el footer */
+/* @keyframes fadeIn {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
-  }
+  } */
     @media print {
         ninja-keys {
             display: none !important;
@@ -136,6 +148,43 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation-timeline: --revealing;
     animation-range: entry 100% cover 40%;
   }
+
+  /* Footer de móvil (inicialmente oculto) */
+footer.mobile-footer {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    text-align: center;
+    animation: linear 0.3s fadeIn;
+
+}
+
+/* Botón para abrir el keyboard en móviles */
+.open-keyboard-btn {
+    padding: 10px 20px;
+    background-color: #eee;
+    color: #666666;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    animation: fadeIn 0.5s ease-in-out;
+    
+}
+
+  @media (max-width: 768px) {
+    footer.desktop-footer {
+        display: none;
+    }
+
+    footer.mobile-footer {
+        display: block;
+    }
+}
 
   kbd {
     background: #eee;
