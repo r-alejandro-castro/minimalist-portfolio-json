@@ -108,13 +108,16 @@ const profilesInfo = profiles.map(({ network, url }) => {
         ];
     }
     // Abre el teclado de comandos cuando se hace clic en el botón del móvil
-    document.getElementById('open-keyboard')?.addEventListener('click', () => {
-        ninja.open(); // Abre directamente el keyboard
-    });
+    const mobileButton = document.getElementById('open-keyboard');
+    if (mobileButton) {
+      mobileButton.addEventListener('click', () => {
+        console.log("Botón de teclado en móvil clicado");
+        ninja?.open(); // Asegúrate que ninja existe
+      });
+    }
 </script>
 
 <style>
-
 
 /* Animación para el footer */
 /* @keyframes fadeIn {
@@ -149,42 +152,40 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation-range: entry 100% cover 40%;
   }
 
-  /* Footer de móvil (inicialmente oculto) */
-footer.mobile-footer {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background: #fdfdfd;
-    border-top: 1px solid #eee;
-    text-align: center;
-    animation: linear 0.3s fadeIn;
+  footer.mobile-footer {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      background: #fdfdfd;
+      border-top: 1px solid #eee;
+      text-align: center;
+      animation: linear 0.3s fadeIn;
 
-}
+  }
 
-/* Botón para abrir el keyboard en móviles */
-.open-keyboard-btn {
-    padding: 10px 20px;
-    background-color: #eee;
-    color: #666666;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  .open-keyboard-btn {
+      padding: 10px 20px;
+      background-color: #eee;
+      color: #666666;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
 
-    animation: fadeIn 0.5s ease-in-out;
-    
-}
+      animation: fadeIn 0.5s ease-in-out;
+      
+  }
 
   @media (max-width: 768px) {
-    footer.desktop-footer {
-        display: none;
+    footer#normal-footer {
+      display: none;
     }
 
     footer.mobile-footer {
-        display: block;
+      display: block;
     }
-}
+  }
 
   kbd {
     background: #eee;
