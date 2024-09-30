@@ -38,7 +38,7 @@ const SOCIAL_ICONS: Record<string, string> = {
   ></path></svg
 >
 `
-}
+};
 
 const profilesInfo = profiles.map(({ network, url }) => {
   const icon = SOCIAL_ICONS[network]
@@ -52,7 +52,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     icon,
     hotkey: `ctrl+${firstLetter}`,
   }
-})
+});
 
 ---
 
@@ -111,8 +111,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     const mobileButton = document.getElementById('open-keyboard');
     if (mobileButton) {
       mobileButton.addEventListener('click', () => {
-        console.log("Botón de teclado en móvil clicado");
-        ninja?.open(); // Asegúrate que ninja existe
+        ninja?.open();
       });
     }
 </script>
@@ -166,14 +165,16 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
 
   .open-keyboard-btn {
-      padding: 10px 20px;
-      background-color: #eee;
-      color: #666666;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+    font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
+    letter-spacing: -0.1px;
+    padding: 10px 20px;
+    background-color: #eee;
+    color: #222222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 
-      animation: fadeIn 0.5s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
       
   }
 
