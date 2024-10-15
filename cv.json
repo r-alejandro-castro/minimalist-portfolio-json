@@ -137,7 +137,12 @@
     "projects": [
       {
         "name": "Tic tac toe",
+        "github": "https://github.com/r-alejandro-castro/tic-tac-toe",
+
         "isActive": true, 
+        "up": "Al poner arriba false, cambia al logo de git hub",
+
+
         "startDate": "2024-02-10",
         "endDate": "2021-13-10",
         "description": "Juego clásico de tres en raya.",
