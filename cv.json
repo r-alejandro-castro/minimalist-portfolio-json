@@ -135,45 +135,20 @@
       "reference": "Reference…"
     }],
     "projects": [
-        {
-        "name": "Project",
+      {
+        "name": "Tic tac toe",
 
         "isActive": true, 
-        
-        "startDate": "2019-01-01",
-        "endDate": "2021-01-01",
-        "description": "Description...",
-        "highlights": [
-          "Won award at AIHacks 2016"
-        ],
-        "url": "https://project.com/"
-      },
-      {
-        "name": "Project",
+        "up": "Al poner arriba false, cambia al logo de git hub",
 
-        "isActive": true, 
-        
-        "startDate": "2019-01-01",
-        "endDate": "2021-01-01",
-        "description": "Description...",
-        "highlights": [
-          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
-        ],
-        "url": "https://project.com/"
-      },
-      {
-        "name": "Project",
-        "github": "https://project.com/",
 
-        "isActive": false, 
-        
-        "startDate": "2019-01-01",
-        "endDate": "2021-01-01",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "startDate": "2024-02-10",
+        "endDate": "2021-13-10",
+        "description": "Juego clásico de tres en raya.",
         "highlights": [
-          "Won award at AIHacks 2016"
+          "Interfaz sencilla y fácil de usar."
         ],
-        "url": "https://project.com/"
+        "url": "https://rac-tic-tac-toe.netlify.app/"
       }
     ]
   }
