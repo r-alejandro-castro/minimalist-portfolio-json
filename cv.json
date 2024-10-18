@@ -145,7 +145,7 @@
 
         "startDate": "2024-02-10",
         "endDate": "2021-13-10",
-        "description": "Juego clásico de tres en raya.",
+        "description": "Juego clásico de tres en raya desarrollado en React",
         "highlights": [
           "Interfaz sencilla y fácil de usar."
         ],
