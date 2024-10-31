@@ -18,7 +18,7 @@ import { projects } from "@cv"
                     <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
                       {name}
                     </a>
-                    {isActive && <span>•</span>}
+                    <span style={`color: ${isActive ? 'green' : 'red'};`}>•</span>
                     {github && (
                       <a
                         class="github-code-link"

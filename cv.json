@@ -164,6 +164,20 @@
           "El proyecto se destaca por su capacidad de actualizar el estado en tiempo real, lo que proporciona una interacción instantánea sin recargar la página."
         ],
         "url": "https://rac-tic-tac-toe.netlify.app/"
+      },
+      {
+        "name": "40 proyectos en JavaScript",
+        "github": "https://github.com/r-alejandro-castro/40-projects-js",
+
+        "isActive": false, 
+
+        "startDate": "2024-17-10",
+        "endDate": "2021-23-10",
+        "description": "He subido a GitHub un proyecto que contiene 40 mini componentes desarrollados en JavaScript, cada uno representando una funcionalidad específica, como un navbar, un contador, una calculadora, entre otros.",
+        "highlights": [
+          "El proyecto se destaca por su variedad y modularidad, permitiendo a los usuarios explorar y reutilizar cada componente de forma independiente."
+        ],
+        "url": "https://github.com/r-alejandro-castro/40-projects-js"
       }
     ]
   }
