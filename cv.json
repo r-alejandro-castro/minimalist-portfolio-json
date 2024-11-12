@@ -145,9 +145,9 @@
 
         "startDate": "2024-02-10",
         "endDate": "2021-13-10",
-        "description": "La tecnología que use para desarrollar este juego fue React, donde los jugadores pueden competir entre sí en un tablero clásico de 3x3. La aplicación muestra el ganador al finalizar el juego y permite reiniciar la partida sin perder el historial de jugadas. Esto se logra mediante el uso del estado local para gestionar las posiciones ocupadas en el tablero.",
+        "description": "En este juego, los jugadores pueden competir entre sí en un tablero clásico 3x3. La aplicación muestra el ganador al finalizar el juego y permite reiniciar la partida sin perder el historial de jugadas.",
         "highlights": [
-          "Una característica destacada del juego es su capacidad para mantener las jugadas realizadas incluso después de reiniciar la página."
+          "React.js"
         ],
         "url": "https://rac-tic-tac-toe.netlify.app/"
       },
@@ -161,7 +161,7 @@
         "endDate": "2021-23-10",
         "description": "Desarrollé una página web en React que permite a los usuarios seguir y dejar de seguir. Utiliza componentes reutilizables y estado local para una experiencia fluida y dinámica.",
         "highlights": [
-          "El proyecto se destaca por su capacidad de actualizar el estado en tiempo real, lo que proporciona una interacción instantánea sin recargar la página."
+          "React.js"
         ],
         "url": "https://rac-tic-tac-toe.netlify.app/"
       },
@@ -175,7 +175,7 @@
         "endDate": "2021-23-10",
         "description": "He subido a GitHub un proyecto que contiene 40 mini componentes desarrollados en JavaScript, cada uno representando una funcionalidad específica, como un navbar, un contador, una calculadora, entre otros.",
         "highlights": [
-          "El proyecto se destaca por su variedad y modularidad, permitiendo a los usuarios explorar y reutilizar cada componente de forma independiente."
+          "JavaScript"
         ],
         "url": "https://github.com/r-alejandro-castro/40-projects-js"
       }
