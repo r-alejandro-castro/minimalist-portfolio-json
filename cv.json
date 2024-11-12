@@ -28,8 +28,13 @@
           "network": "GitHub",
           "username": "r-alejandro-castro",
           "url": "https://github.com/r-alejandro-castro"
-        }
+        },
 
+        {
+          "network": "GitLab",
+          "username": "soyracm",
+          "url": "https://gitlab.com/soyracm"
+        }
     ]
     },
     "work": [

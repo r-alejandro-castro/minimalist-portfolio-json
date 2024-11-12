@@ -7,6 +7,8 @@ import X from "@/icons/X.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
+import GitLab from "@/icons/GitLab.astro"
+import Git from "@/icons/git.astro"
 // import type { SocialIcon } from "@/types"
 
 const { name, label, image, location, profiles, phone, email, url } = basics
@@ -16,12 +18,13 @@ const SOCIAL_ICONS: Record<string, any> = {
     GitHub,
     LinkedIn,
     X,
+    GitLab
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl, url].filter(Boolean);
+const printInfo = [email, phone, linkedUrl, url,].filter(Boolean);
 
 
 ---
