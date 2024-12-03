@@ -7,7 +7,7 @@
       "email": "soyracm@gmail.com",
       "phone": "(+58) 412-149-5138",
       "url": "https://cv-alejandro-castro.netlify.app/",
-      "summary": "Soy un desarrollador con dos años de experiencia en tecnologías como JavaScript, TypeScript, Astro, Node.js y React.js. Además, tengo experiencia en el desarrollo de API REST y mi entorno de desarrollo es Visual Studio Code.",
+      "summary": "Soy un desarrollador con dos años de experiencia en tecnologías como JavaScript, TypeScript, Node.js y React.js. Además, tengo experiencia en el desarrollo de API REST, Astro, Python y Next.js y mi entorno de desarrollo es Visual Studio Code.",
       "summary_us":"I'm a developer with two years of experience working with technologies like JavaScript, TypeScript, Astro, Node.js, and React.js. I also have experience building REST APIs, and I use Visual Studio Code as my development environment.",
       "location": {
         "address": "Centro",
@@ -44,9 +44,9 @@
       "url": "https://www.fii.gob.ve/",
       "startDate": "2023-10-01",
       "endDate": null,
-      "summary": "En mi puesto actual, me especializo en el desarrollo de componentes reutilizables en React.js y otros elementos dinámicos, optimizando la estructura y usabilidad de interfaces web.",
+      "summary": "Me especializo en el desarrollo de componentes reutilizables en React.js, como menús desplegables, formularios dinámicos y modales, implementando lógicas como la gestión de estado con Redux o Context API y el consumo de APIs con Axios, enfocándome en optimizar la experiencia del usuario y la eficiencia de las interfaces. ",
       "highlights": [
-        "Started the company"
+        ""
       ]},
 
       {
@@ -55,9 +55,9 @@
         "url": "",
         "startDate": "2021-01-01",
         "endDate": "2023-10-01",
-        "summary": "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web",
+        "summary": "Me enfoqué en el diseño de interfaces de usuario y experiencia de usuario para aplicaciones web, creando wireframes, prototipos interactivos y flujos de usuario, asegurando una experiencia intuitiva y adaptada a las necesidades de los usuarios.",
         "highlights": [
-          "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web y móviles."
+          ""
         ]}
 
   ],
@@ -118,6 +118,8 @@
     },
     {"name": "TypeScript"},
     {"name": "React.js"},
+    {"name": "Next.js"},
+    {"name": "Python"},
     {"name": "Astro"},
     {"name": "PostgreSQL"},
     {"name": "Node.js"},

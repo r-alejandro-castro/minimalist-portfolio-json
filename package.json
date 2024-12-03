@@ -12,8 +12,8 @@
     "deploy": "pnpm run build && pnpm run publish"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.2",
-    "astro": "^4.13.3",
+    "@astrojs/check": "^0.9.4",
+    "astro": "^5.0.1",
     "gh-pages": "^6.1.1",
     "ninja-keys": "^1.2.2",
     "typescript": "^5.5.4"
