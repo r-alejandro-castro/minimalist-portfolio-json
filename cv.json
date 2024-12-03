@@ -7,7 +7,7 @@
       "email": "soyracm@gmail.com",
       "phone": "(+58) 412-149-5138",
       "url": "https://cv-alejandro-castro.netlify.app/",
-      "summary": "Soy un desarrollador con dos años de experiencia en tecnologías como JavaScript, TypeScript, Node.js y React.js. Además, tengo experiencia en el desarrollo de API REST, Astro, Python y Next.js y mi entorno de desarrollo es Visual Studio Code.",
+      "summary": "Soy un desarrollador con dos años de experiencia, tengo habilidades en back-end y especializado en la implementación de arquitecturas de microservicios, principalmente en React.js. También cuento con experiencia en el desarrollo de API REST, así como en el uso de tecnologías como Astro, Python y Next.js. Mi entorno de desarrollo preferido es Visual Studio Code.",
       "summary_us":"I'm a developer with two years of experience working with technologies like JavaScript, TypeScript, Astro, Node.js, and React.js. I also have experience building REST APIs, and I use Visual Studio Code as my development environment.",
       "location": {
         "address": "Centro",
@@ -44,14 +44,14 @@
       "url": "https://www.fii.gob.ve/",
       "startDate": "2023-10-01",
       "endDate": null,
-      "summary": "Me especializo en el desarrollo de componentes reutilizables en React.js, como menús desplegables, formularios dinámicos y modales, implementando lógicas como la gestión de estado con Redux o Context API y el consumo de APIs con Axios, enfocándome en optimizar la experiencia del usuario y la eficiencia de las interfaces. ",
+      "summary": "Diseñé y desarrollé componentes reutilizables en React.js, incluyendo menús desplegables, formularios dinámicos y modales, con un enfoque en mejorar la experiencia del usuario y optimizar la eficiencia de las interfaces. Implementé la gestión de estado utilizando Redux y Context API, y consumí APIs de manera eficiente empleando Axios. Aparte participé en tareas básicas del desarrollo del servidor, incluyendo la creación y gestión de bases de datos relacionales con PostgreSQL.",
       "highlights": [
         ""
       ]},
 
       {
         "name": "Ginux Studio",
-        "position": "Diseñador UI/UX",
+        "position": "Desarrollador web",
         "url": "",
         "startDate": "2021-01-01",
         "endDate": "2023-10-01",
@@ -123,7 +123,8 @@
     {"name": "Astro"},
     {"name": "PostgreSQL"},
     {"name": "Node.js"},
-    {"name": "GIT"}
+    {"name": "GIT"},
+    {"name": "MicroService"}
   ],
     
     "languages": [{
