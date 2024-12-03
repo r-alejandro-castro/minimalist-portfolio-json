@@ -7,7 +7,7 @@
       "email": "soyracm@gmail.com",
       "phone": "(+58) 412-149-5138",
       "url": "https://cv-alejandro-castro.netlify.app/",
-      "summary": "Soy un desarrollador con dos años de experiencia, tengo habilidades en back-end y especializado en la implementación de arquitecturas de microservicios, principalmente en React.js. También cuento con experiencia en el desarrollo de API REST, así como en el uso de tecnologías como Astro, Python y Next.js. Mi entorno de desarrollo preferido es Visual Studio Code.",
+      "summary": "Soy un desarrollador con dos años de experiencia, tengo habilidades en back-end y especializado en la implementación de arquitecturas de microservicios, principalmente en React.js. También cuento con experiencia en el desarrollo de API REST, así como en el uso de tecnologías como Astro, Python y Next.js.",
       "summary_us":"I'm a developer with two years of experience working with technologies like JavaScript, TypeScript, Astro, Node.js, and React.js. I also have experience building REST APIs, and I use Visual Studio Code as my development environment.",
       "location": {
         "address": "Centro",
@@ -39,23 +39,33 @@
     },
     "work": [
       {
+        "name": "Starty",
+        "position": "Desarrollador front-end y back-end",
+        "url": "",
+        "startDate": "2024-11-01",
+        "endDate": null,
+        "summary": "Desarrollo y configuración de un sistema maestro para la creación automatizada de proyectos mediante una API de inteligencia artificial. Utilizo Python para implementar funcionalidades clave, optimizar procesos y garantizar una integración eficiente con las herramientas de IA.",
+        "highlights": [
+          ""
+        ]},
+      {
       "name": "Fundación Instituto de Ingeniería",
       "position": "React Desarrollador",
       "url": "https://www.fii.gob.ve/",
-      "startDate": "2023-10-01",
-      "endDate": null,
-      "summary": "Diseñé y desarrollé componentes reutilizables en React.js, incluyendo menús desplegables, formularios dinámicos y modales, con un enfoque en mejorar la experiencia del usuario y optimizar la eficiencia de las interfaces. Implementé la gestión de estado utilizando Redux y Context API, y consumí APIs de manera eficiente empleando Axios. Aparte participé en tareas básicas del desarrollo del servidor, incluyendo la creación y gestión de bases de datos relacionales con PostgreSQL.",
+      "startDate": "2022-07-01",
+      "endDate": "2023-11-01",
+      "summary": "Desarrollé componentes reutilizables en React.js, incluyendo menús desplegables, formularios dinámicos y modales, con un enfoque en mejorar la experiencia del usuario y optimizar la eficiencia de las interfaces. Implementé la gestión de estado utilizando Redux y Context API, y consumí APIs de manera eficiente empleando Axios. Aparte participé en tareas básicas del desarrollo del servidor, incluyendo la creación y gestión de bases de datos relacionales con PostgreSQL.",
       "highlights": [
         ""
       ]},
 
       {
-        "name": "Ginux Studio",
-        "position": "Desarrollador web",
+        "name": "Freelancer",
+        "position": "Desarrollador",
         "url": "",
-        "startDate": "2021-01-01",
-        "endDate": "2023-10-01",
-        "summary": "Me enfoqué en el diseño de interfaces de usuario y experiencia de usuario para aplicaciones web, creando wireframes, prototipos interactivos y flujos de usuario, asegurando una experiencia intuitiva y adaptada a las necesidades de los usuarios.",
+        "startDate": "2021-10-01",
+        "endDate": "2022-06-01",
+        "summary": "Partícipe en desarrollo componentes reutilizables en React, incluyendo pasarelas de pago integradas con APIs externas. Optimizé la interfaz, implementé pruebas unitarias y apliqué buenas prácticas para un código escalable. Gestioné proyectos de forma autónoma desde la planificación hasta la entrega final.",
         "highlights": [
           ""
         ]}
