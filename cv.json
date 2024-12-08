@@ -184,18 +184,19 @@
         "url": "https://rac-tic-tac-toe.netlify.app/"
       },
       {
-        "name": "40 proyectos en JavaScript",
-        "github": "https://github.com/r-alejandro-castro/40-projects-js",
+        "name": "Proyectos en JavaScript y TypeScript",
+        "github": "https://github.com/r-alejandro-castro/web-apps-js-and-ts",
 
         "isActive": false, 
 
         "startDate": "2024-17-10",
         "endDate": "2021-23-10",
-        "description": "He subido a GitHub un proyecto que contiene 40 mini componentes desarrollados en JavaScript, cada uno representando una funcionalidad específica, como un navbar, un contador, una calculadora, entre otros.",
+        "description": "He subido a GitHub un proyecto que contiene 40 mini componentes desarrollados en JavaScript y TypeScript, cada uno representando una funcionalidad específica, como un navbar, un contador, una calculadora, entre otros.",
         "highlights": [
-          "JavaScript"
+          "JavaScript",
+          "TypeScript"
         ],
-        "url": "https://github.com/r-alejandro-castro/40-projects-js"
+        "url": "https://github.com/r-alejandro-castro/web-apps-js-and-ts"
       }
     ]
   }
