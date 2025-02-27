@@ -4,18 +4,29 @@
 ---
 <Section title="Experencia laboral"> 
     <ul>
-        {work.map (({name, startDate, endDate, position, summary, highlights}) => {
+        {work.map (({name, startDate, endDate, position, summary, highlights, skills}) => {
 
             const startYear = new Date(startDate).getFullYear()
             const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
             const years = `${startYear} - ${endYear}`
+
+            const summaryArray = Array.isArray(summary) ? summary : [summary]
+
+            const skillsArray = Array.isArray(skills) ? skills : [skills]
 
             return (
                 <li>
                     <article>
                         <header>
                             <div class="job-info">
-                                <h3>{name}</h3>
+                                <div class="name-skills">
+                                    <h3>{name}</h3>
+                                    <div class="skills">
+                                        {skillsArray.length > 0 ? skillsArray.map((skill) => (
+                                            <span>{skill}</span>
+                                        )) : null}
+                                    </div>
+                                </div>
                                 <h4>{position}</h4>
                             </div>
 
@@ -23,7 +34,13 @@
                         </header>
 
                         <footer>                            
-                            <p>{summary}</p>
+                            <ul>
+                                {summaryArray.map((item, index) => (
+                                    <li key={index}>
+                                        <p>• {item}</p>
+                                    </li>
+                                ))}
+                            </ul>
                         </footer>
                     </article>
                 </li>
@@ -59,9 +76,50 @@
     }
 
     .job-info {
-        max-width: 70%;
-        /* Ajusta el ancho del contenedor */
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
         margin-top: 0;
+    }
+
+    .name-skills {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .job-info h3 {
+        margin: 0;
+        font-weight: 450;
+        color: #111;
+        line-height: 1.2;
+        font-size: 1rem; /* Establece el tamaño de la fuente */
+    }
+
+    .skills {
+        display: inline-flex;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        font-size: 0.75rem; /* Tamaño de fuente más pequeño */
+    }
+
+    .skills span {
+        border-radius: 6px;
+        background-color: #dfdfdf;
+        color: #444;
+        font-size: 0.70rem; /* Tamaño de fuente más pequeño */
+        font-weight: 500;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .job-info h4 {
+        margin: 6px 0 8px 0;
+        font-weight: 390;
+        color: #333;
+        line-height: 1.2;
+        font-size: 0.85rem;
     }
 
     h3 {
@@ -91,8 +149,7 @@
 		font-size: 1rem;
     }
 
-
-    p {
+    p{
         margin: 0;
         line-height: 1.4;
         color: #555;

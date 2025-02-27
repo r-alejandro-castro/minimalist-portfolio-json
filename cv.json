@@ -1,13 +1,13 @@
 {
     "basics": {
-      "name": "Alejandro Castro",
-      "label": "Soy un estudiante de ingeniería de sistemas enfocado en el desarrollo de productos de alta calidad.",
+      "name": "Rodolfo Alejandro Castro",
+      "label": "Estudiante de ingeniería enfocado en el desarrollo de productos de alta calidad.",
       "label_us": "I'm a systems engineering student focused on developing high-quality products.",
       "image": "/img/me2.webp",
       "email": "soyracm@gmail.com",
       "phone": "(+58) 412-149-5138",
       "url": "https://cv-alejandro-castro.netlify.app/",
-      "summary": "Soy un desarrollador con dos años de experiencia, tengo habilidades en back-end y especializado en la implementación de arquitecturas de microservicios, principalmente en React.js. También cuento con experiencia en el desarrollo de API REST, así como en el uso de tecnologías como Astro, Python y Next.js.",
+      "summary": "Estudiante de Ingeniería en Informática con más de 2 años de experiencia práctica en desarrollo front-end, especializado en la creación de interfaces de usuario dinámicas y escalables utilizando Astro, React y Next.js. Dominio en la implementación de arquitecturas de componentes reutilizables, optimización del rendimiento mediante técnicas de carga diferida y renderizado del lado del servidor (SSR). Experiencia en la aplicación de estilos y diseño responsivo con Tailwind CSS. Experiencia en proyectos back-end, incluyendo la conversión de scripts Python a servicios RESTful, utilizando frameworks como Flask o FastAPI. Alta capacidad de adaptación a nuevos frameworks JavaScript, manejo de herramientas de control de versiones (Git)",
       "summary_us":"I'm a developer with two years of experience working with technologies like JavaScript, TypeScript, Astro, Node.js, and React.js. I also have experience building REST APIs, and I use Visual Studio Code as my development environment.",
       "location": {
         "address": "Centro",
@@ -44,13 +44,25 @@
         "url": "",
         "startDate": "2024-11-01",
         "endDate": null,
-        "summary": "Desarrollo y configuración de un sistema maestro para la creación automatizada de proyectos mediante una API de inteligencia artificial. Utilizo Python para implementar funcionalidades clave, optimizar procesos y garantizar una integración eficiente con las herramientas de IA.",
+        "summary": [
+          
+            "Desarrollo y configuración de un sistema maestro para la creación automatizada de proyectos mediante una API de inteligencia artificial. Utilizo Python para implementar funcionalidades clave, optimizar procesos y garantizar una integración eficiente con las herramientas de IA."
+          ,
+          
+            "Desarrollo y configuración de un sistema maestro para la creación automatizada de proyectos mediante una API de inteligencia artificial. Utilizo Python para implementar funcionalidades clave, optimizar procesos y garantizar una integración eficiente con las herramientas de IA."
+          
+        ],
         "highlights": [
           ""
         ]},
       {
       "name": "Fundación Instituto de Ingeniería",
       "position": "React Desarrollador",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "Python"
+      ],
       "url": "https://www.fii.gob.ve/",
       "startDate": "2022-07-01",
       "endDate": "2023-11-01",
@@ -184,7 +196,7 @@
         "url": "https://rac-tic-tac-toe.netlify.app/"
       },
       {
-        "name": "Proyectos en JavaScript y TypeScript",
+        "name": "Proyectos en JavaScript",
         "github": "https://github.com/r-alejandro-castro/web-apps-js-and-ts",
 
         "isActive": false, 
@@ -193,8 +205,7 @@
         "endDate": "2021-23-10",
         "description": "He subido a GitHub un proyecto que contiene mini componentes desarrollados en JavaScript y TypeScript, cada uno representando una funcionalidad específica, como un navbar, un contador, una calculadora, entre otros.",
         "highlights": [
-          "JavaScript",
-          "TypeScript"
+          "JavaScript"
         ],
         "url": "https://github.com/r-alejandro-castro/web-apps-js-and-ts"
       }
