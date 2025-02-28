@@ -7,7 +7,7 @@
       "email": "soyracm@gmail.com",
       "phone": "(+58) 412-149-5138",
       "url": "https://cv-alejandro-castro.netlify.app/",
-      "summary": "Estudiante de Ingeniería en Informática con más de 2 años de experiencia práctica en desarrollo front-end, especializado en la creación de interfaces de usuario dinámicas y escalables utilizando Astro, React y Next.js. Dominio en la implementación de arquitecturas de componentes reutilizables, optimización del rendimiento mediante técnicas de carga diferida y renderizado del lado del servidor (SSR). Experiencia en la aplicación de estilos y diseño responsivo con Tailwind CSS. Experiencia en proyectos back-end, incluyendo la conversión de scripts Python a servicios RESTful, utilizando frameworks como Flask o FastAPI. Alta capacidad de adaptación a nuevos frameworks JavaScript, manejo de herramientas de control de versiones (Git)",
+      "summary": "Estudiante de Ingeniería en Informática con 2+ años de experiencia en front-end (Astro, React, Next.js), optimización de rendimiento y diseño responsivo (Tailwind CSS). Colaboración en proyectos back-end (Flask/FastAPI, Nest.js con Prisma)",
       "summary_us":"I'm a developer with two years of experience working with technologies like JavaScript, TypeScript, Astro, Node.js, and React.js. I also have experience building REST APIs, and I use Visual Studio Code as my development environment.",
       "location": {
         "address": "Centro",
@@ -40,47 +40,46 @@
     "work": [
       {
         "name": "Starty",
-        "position": "Desarrollador front-end y back-end",
+        "position": "Front-end semi-senior y Back-end junior",
+        "skills": [
+          "React",
+          "Next.js",
+          "Python"
+        ],
         "url": "",
         "startDate": "2024-11-01",
         "endDate": null,
+        "description": "Implementé un servicio de IA con Flask y desarrollé el front-end con Next.js, creando una solución completa.",
         "summary": [
           
-            "Desarrollo y configuración de un sistema maestro para la creación automatizada de proyectos mediante una API de inteligencia artificial. Utilizo Python para implementar funcionalidades clave, optimizar procesos y garantizar una integración eficiente con las herramientas de IA."
+            "Adaptación y transformación de un script de Python existente para la integración de un modelo de inteligencia artificial en un servicio API RESTful con Flask, permitiendo la interacción a través de peticiones POST."
           ,
-          
-            "Desarrollo y configuración de un sistema maestro para la creación automatizada de proyectos mediante una API de inteligencia artificial. Utilizo Python para implementar funcionalidades clave, optimizar procesos y garantizar una integración eficiente con las herramientas de IA."
-          
+            "Desarrollo de la interfaz de usuario con Next.js."
         ],
         "highlights": [
           ""
         ]},
       {
       "name": "Fundación Instituto de Ingeniería",
-      "position": "React Desarrollador",
+      "position": "Front-end Junior React",
       "skills": [
         "React.js",
         "Next.js",
-        "Python"
+        "Nest.js"
       ],
       "url": "https://www.fii.gob.ve/",
       "startDate": "2022-07-01",
       "endDate": "2023-11-01",
-      "summary": "Desarrollé componentes reutilizables en React.js, incluyendo menús desplegables, formularios dinámicos y modales, con un enfoque en mejorar la experiencia del usuario y optimizar la eficiencia de las interfaces. Implementé la gestión de estado utilizando Redux y Context API, y consumí APIs de manera eficiente empleando Axios. Aparte participé en tareas básicas del desarrollo del servidor, incluyendo la creación y gestión de bases de datos relacionales con PostgreSQL.",
+      "description": "Mis inicios se centraron en el desarrollo web con React y Next.js, la implementación de APIs, la mejora del rendimiento del código y la colaboración en proyectos back-end con Nest.js y Prisma",
+      "summary": [
+        "Desarrollo de componentes web reutilizables y optimizados con Next.js, enfocándome en la creación de interfaces de usuario dinámicas y eficientes.",
+        "Implementación y optimización de peticiones a API REST, diseñando la comunicación entre el frontend y el backend.",
+        "Optimización y refactorización de código existente, mejorando la mantenibilidad, rendimiento y escalabilidad de la base de código.",
+        "Colaboración en proyectos back-end utilizando Nest.js con Prisma, participando en el desarrollo de APIs y la gestión de bases de datos."
+      ],
       "highlights": [
         ""
-      ]},
-
-      {
-        "name": "Freelancer",
-        "position": "Desarrollador",
-        "url": "",
-        "startDate": "2021-10-01",
-        "endDate": "2022-06-01",
-        "summary": "Partícipe en desarrollo componentes reutilizables en React, incluyendo pasarelas de pago integradas con APIs externas. Optimizé la interfaz, implementé pruebas unitarias y apliqué buenas prácticas para un código escalable. Gestioné proyectos de forma autónoma desde la planificación hasta la entrega final.",
-        "highlights": [
-          ""
-        ]}
+      ]}
 
   ],
     "volunteer": [{
@@ -130,23 +129,33 @@
 
     "skills": [
       {
-      "name": "JavaScript",
-      "level": "Master",
+      "name": "Experto",
+      "level": "Experto",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Vite.js",
+        "Tailwind CSS"
       ]
     },
-    {"name": "TypeScript"},
-    {"name": "React.js"},
-    {"name": "Next.js"},
-    {"name": "Python"},
-    {"name": "Astro"},
-    {"name": "PostgreSQL"},
-    {"name": "Node.js"},
-    {"name": "GIT"},
-    {"name": "MicroService"}
+    {
+      "name": "Intermedio",
+      "level": "Intermedio",
+      "keywords": [
+        "Astro",
+        "Python"
+      ]
+    },
+    {
+      "name": "Basico",
+      "level": "Basico",
+      "keywords": [
+        "Nest.js",
+        "Node.js"
+      ]
+    }
   ],
     
     "languages": [{
@@ -175,7 +184,7 @@
 
         "startDate": "2024-02-10",
         "endDate": "2021-13-10",
-        "description": "En este juego, los jugadores pueden competir entre sí en un tablero clásico 3x3. La aplicación muestra el ganador al finalizar el juego y permite reiniciar la partida sin perder el historial de jugadas.",
+        "description": "Implementación de juego de tres en raya con historial de jugadas y lógica de ganador.",
         "highlights": [
           "React.js"
         ],
@@ -189,7 +198,7 @@
 
         "startDate": "2024-17-10",
         "endDate": "2021-23-10",
-        "description": "Desarrollé una página web en React que permite a los usuarios seguir y dejar de seguir. Utiliza componentes reutilizables y estado local para una experiencia fluida y dinámica.",
+        "description": "Página web interactiva en React con funcionalidad de seguimiento de usuarios, basada en componentes reutilizables.",
         "highlights": [
           "React.js"
         ],
@@ -203,7 +212,7 @@
 
         "startDate": "2024-17-10",
         "endDate": "2021-23-10",
-        "description": "He subido a GitHub un proyecto que contiene mini componentes desarrollados en JavaScript y TypeScript, cada uno representando una funcionalidad específica, como un navbar, un contador, una calculadora, entre otros.",
+        "description": "Colección de mini componentes JavaScript (navbar, contador, etc.) en GitHub, enfocados en funcionalidades individuales.",
         "highlights": [
           "JavaScript"
         ],

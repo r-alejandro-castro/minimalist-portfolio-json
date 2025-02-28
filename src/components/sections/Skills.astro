@@ -1,20 +1,29 @@
 ---
  import Section from "@/components/Section.astro"
-
  import {skills} from "@cv"
 ---
 <Section title="Habilidades">
-
-        <ul>
-            {skills.map (({name}) => (
-                    <li>
-                        <span>{name}</span>
-                    </li>
+        <!-- <ul>
+            {skills.map (({name, level, keywords}) => (
+                    <ul class="keywords" class={`skill-level ${level.toLowerCase()}`}>
+                    {keywords.map((keyword, index) => (
+                        <li key={index} >
+                            <span >{keyword}</span>
+                        </li>
+                    ))}
+                </ul>
                 ))
             }
+        </ul> -->
+        <ul class="skills-list">
+            {skills.map(({ name, level, keywords }) => (
+                keywords.map((keyword, index) => (
+                    <li key={`${name}-${index}`} class={`skill ${level.toLowerCase()}`}>
+                        <span>{keyword}</span>
+                    </li>
+                ))
+            ))}
         </ul>
-
-
 </Section>
 
 <style>
@@ -23,21 +32,37 @@
         margin: 0;
     }
 
-    ul {
-        display: inline-flex; 
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
         gap: 8px;
         padding: 0;
-        margin: 0; 
-        justify-content: flex-start;
-        flex-wrap: wrap;
+        margin: 0;
+        list-style-type: none;
     }
 
-    li {
+    .skill {
         border-radius: 6px;
         background-color: #dfdfdf;
         color: #444;
         font-size: 0.8rem;
         font-weight: 500;
         padding: 0.2rem 0.6rem;
+    }
+
+    .skill.experto {
+        background-color: #4d4d4d; 
+        color: #fff;
+    }
+
+    .skill.intermedio {
+        background-color: #777777; 
+        color: #fff;
+    }
+
+    .skill.basico {
+        background-color: #cccccc;
+        
+        color: #272727;
     }
 </style>
