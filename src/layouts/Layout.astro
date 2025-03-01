@@ -70,6 +70,7 @@ const { title } = Astro.props;
   }
 
   @media print {
+    /* Oculta elementos no deseados */
     .no-print {
       display: none !important;
     }
@@ -82,8 +83,32 @@ const { title } = Astro.props;
       display: none !important;
     }
 
+    /* Evita que los artículos se corten */
     article {
       break-inside: avoid;
     }
+
+    /* Elimina márgenes y paddings del body */
+    body {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    @page {
+      margin-top: 20mm; 
+      margin-bottom: 20mm; 
+    }
+
+    body::after {
+      content: "";
+      display: block;
+      height: 20mm;
+    }
+
+    main > * {
+      break-inside: avoid;
+    }
   }
+
+
 </style>

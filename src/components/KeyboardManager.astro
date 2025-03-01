@@ -191,27 +191,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
       
   }
 
-  @media print {
-    ninja-keys {
-      display: none !important;
-    }
-    
-    /* Eliminar padding/margin del contenido */
-    body {
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-    
-    /* Margen inferior de la página impresa */
-    @page {
-      margin-bottom: 20mm; /* Ajusta este valor */
+  @media (max-width: 768px) {
+    footer#normal-footer {
+      display: none;
     }
 
-    /* Espacio reservado equivalente al margen */
-    body::after {
-      content: "";
+    footer.mobile-footer {
       display: block;
-      height: 20mm; /* Mismo valor que margin-bottom */
     }
   }
 

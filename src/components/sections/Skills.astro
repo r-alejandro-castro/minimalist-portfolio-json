@@ -16,9 +16,9 @@
             }
         </ul> -->
         <ul class="skills-list">
-            {skills.map(({ name, level, keywords }) => (
+            {skills.map(({ level, keywords }) => (
                 keywords.map((keyword, index) => (
-                    <li key={`${name}-${index}`} class={`skill ${level.toLowerCase()}`}>
+                    <li class={`skill ${level.toLowerCase()}`}>
                         <span>{keyword}</span>
                     </li>
                 ))
