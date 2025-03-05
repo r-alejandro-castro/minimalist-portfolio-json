@@ -70,7 +70,7 @@
       ],
       "url": "https://www.fii.gob.ve/",
       "startDate": "2022-07-01",
-      "endDate": "2024-02-01",
+      "endDate": "2024-03-01",
       "description": "Mis inicios se centraron en el desarrollo web con React y Next.js, la implementación de APIs, la mejora del rendimiento del código y la colaboración en proyectos back-end con Nest.js y Prisma",
       "summary": [
         "Desarrollo de componentes web reutilizables y optimizados con Next.js, enfocándome en la creación de interfaces de usuario dinámicas y eficientes.",
@@ -138,7 +138,8 @@
         "React",
         "Next.js",
         "Vite.js",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "English B1"
       ]
     },
     {
