@@ -10,10 +10,11 @@ import KeyboardManager from '@/components/KeyboardManager.astro'
 import Education from '@/components/sections/Education.astro';
 
 import { basics } from '@cv'
-const {name,label} = basics
+const {name,layout} = basics
 ---
 
-<Layout title={`Curriculum de ${name} - ${label}`}>
+<Layout title={`CV de ${name} - ${layout}`}>
+<!-- <Layout title={`Curriculum de ${name}`}> -->
 	<main>
 		<Hero />
 		<About />

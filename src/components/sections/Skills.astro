@@ -15,22 +15,47 @@
                 ))
             }
         </ul> -->
-        <ul class="skills-list">
-            {skills.map(({ level, keywords }) => (
-                keywords.map((keyword, index) => (
-                    <li class={`skill ${level.toLowerCase()}`}>
-                        <span>{keyword}</span>
-                    </li>
-                ))
+        <div class="skills-container">
+            {skills.map(({ name, level, keywords }) => (
+                <div class={`skills-group ${level.toLowerCase()}`}>
+                    <h4>{name}</h4>
+                    <ul class="skills-list">
+                        {keywords.map((keyword) => (
+                            <li class={`skill ${level.toLowerCase()}`}>
+                                <span>{keyword}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             ))}
-        </ul>
+        </div>
 </Section>
 
 <style>
+
+    h4 {
+        margin: 6px 0 8px 0;
+        font-weight: 390;
+        color: #333;
+        line-height: 1.2;
+        font-size: 0.85rem;
+    }
     section {
         padding: 0;
         margin: 0;
     }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .skills-group {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .skills-list {
         display: flex;

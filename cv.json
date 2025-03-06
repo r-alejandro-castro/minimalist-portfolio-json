@@ -1,6 +1,7 @@
 {
     "basics": {
       "name": "Rodolfo Alejandro Castro",
+      "layout": "Desarrollador Front-End",
       "label": "Estudiante de ingeniería enfocado en el desarrollo de productos de alta calidad.",
       "label_us": "I'm a systems engineering student focused on developing high-quality products.",
       "image": "/img/me2.webp",
@@ -137,7 +138,6 @@
         "TypeScript",
         "React",
         "Next.js",
-        "Vite.js",
         "Tailwind CSS",
         "Ingles B1"
       ]
@@ -147,7 +147,8 @@
       "level": "Intermedio",
       "keywords": [
         "Astro",
-        "Python"
+        "Python",
+        "PostgreSQL"
       ]
     },
     {
