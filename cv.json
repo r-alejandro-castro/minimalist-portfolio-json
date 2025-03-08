@@ -148,7 +148,7 @@
       "keywords": [
         "Astro",
         "Python",
-        "PostgreSQL"
+        "Postman"
       ]
     },
     {
@@ -156,7 +156,9 @@
       "level": "Basico",
       "keywords": [
         "Nest.js",
-        "Node.js"
+        "Node.js",
+        "PostgreSQL"
+
       ]
     }
   ],
