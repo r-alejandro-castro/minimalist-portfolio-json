@@ -11,7 +11,8 @@ import GitLab from "@/icons/GitLab.astro"
 import Git from "@/icons/git.astro"
 // import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email, url } = basics
+// const { name, label, image, location, profiles, phone, email, url } = basics
+const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -24,7 +25,8 @@ const SOCIAL_ICONS: Record<string, any> = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl, url,].filter(Boolean);
+// const printInfo = [email, phone, linkedUrl, url].filter(Boolean);
+const printInfo = [email, phone, linkedUrl].filter(Boolean);
 
 
 ---
